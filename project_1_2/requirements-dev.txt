@@ -1,0 +1,2 @@
+# Python Real-World Projects -- Project 1.2: Acquire data from web service
+bottle==0.12.23

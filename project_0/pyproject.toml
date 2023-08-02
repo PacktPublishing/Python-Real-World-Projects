@@ -1,0 +1,37 @@
+# Python Real-World Projects
+# Project Zero: A template for other projects
+
+[build-system]
+requires = ["setuptools", "wheel"]  # PEP 508 specifications.
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project_0"
+version = "1.0.0"
+authors = [
+    {name = "Author", email = "author@email.com"},
+]
+description = "Real-World Python Projects -- Project 0."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+]
+dependencies = [
+    # Packages this project requires
+]
+[project.optional-dependencies]
+dev = [
+    # Development tools to work on this project
+    "sphinx==7.0.1",
+    "sphinxcontrib-plantuml==0.25",
+    "pip-tools==6.14.0"
+]
+test = [
+    # Testing tools to test this project
+    "pytest==7.2.0",
+    "tox==4.0.8",
+    "behave==1.2.6"
+]

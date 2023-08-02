@@ -1,0 +1,70 @@
+# Python Real-World Projects -- Project 1.5: Acquire data from a SQL extract
+# Project 1.5: Acquire data from a SQL extract
+
+[definition]
+
+create = [
+"""
+CREATE TABLE IF NOT EXISTS series(
+  series_id INTEGER,
+  name TEXT,
+  
+  PRIMARY KEY (series_id)
+)
+""",
+
+"""
+CREATE TABLE IF NOT EXISTS series_sample(
+  series_id INTEGER,
+  sequence INTEGER,
+  x TEXT,
+  y TEXT,
+  
+  PRIMARY KEY (series_id, sequence),
+  FOREIGN KEY (series_id) REFERENCES series(series_id)
+)
+"""
+]
+
+drop = [
+"""
+DROP TABLE IF EXISTS series_sample
+""",
+"""
+DROP TABLE IF EXISTS series
+"""
+]
+
+[manipulation]
+
+insert_series = """
+INSERT INTO series(series_id, name) VALUES(:series_id, :name)
+"""
+
+insert_values = """
+INSERT INTO series_sample(series_id, sequence, x, y) 
+  VALUES(:series_id, :sequence, :x, :y)
+"""
+
+[query]
+summary =  """
+SELECT s.name, COUNT(*) 
+  FROM series s JOIN series_sample sv ON s.series_id = sv.series_id
+  GROUP BY s.series_id
+"""
+
+detail =  """
+SELECT s.name, s.series_id, sv.sequence, sv.x, sv.y
+  FROM series s JOIN series_value sv ON s.series_id = sv.series_id
+"""
+
+names = """
+SELECT s.name FROM series s
+"""
+
+samples = """
+SELECT sv.x, sv.y
+  FROM series_sample sv JOIN series s ON s.series_id = sv.series_id
+  WHERE s.name = :name
+  ORDER BY sv.sequence
+"""
