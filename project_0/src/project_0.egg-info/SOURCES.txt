@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+src/hello_world.py
+src/hw.py
+src/hw2.py
+src/project_0.egg-info/PKG-INFO
+src/project_0.egg-info/SOURCES.txt
+src/project_0.egg-info/dependency_links.txt
+src/project_0.egg-info/requires.txt
+src/project_0.egg-info/top_level.txt
+tests/test_hello_world.py
+tests/test_hw.py
+tests/test_hw2.py

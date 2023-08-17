@@ -1,0 +1,10 @@
+pyproject.toml
+src/acquire.py
+src/csv_extract.py
+src/model.py
+src/project_1_1.egg-info/PKG-INFO
+src/project_1_1.egg-info/SOURCES.txt
+src/project_1_1.egg-info/dependency_links.txt
+src/project_1_1.egg-info/requires.txt
+src/project_1_1.egg-info/top_level.txt
+tests/test_model.py
