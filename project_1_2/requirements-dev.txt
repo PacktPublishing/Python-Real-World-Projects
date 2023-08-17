@@ -77,7 +77,7 @@ pyproject-hooks==1.0.0
     # via build
 pytest==7.4.0
     # via project-1-2 (pyproject.toml)
-requests==2.28.1
+requests==2.31.0
     # via
     #   project-1-2 (pyproject.toml)
     #   sphinx

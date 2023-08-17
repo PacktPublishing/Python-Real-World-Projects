@@ -53,7 +53,7 @@ pyproject-api==1.5.4
     # via tox
 pytest==7.4.0
     # via project-1-2 (pyproject.toml)
-requests==2.28.1
+requests==2.31.0
     # via project-1-2 (pyproject.toml)
 six==1.16.0
     # via
