@@ -1,0 +1,10 @@
+pyproject.toml
+src/build_db.py
+src/query_examples.py
+src/sql_script_maker.py
+src/project_1_4.egg-info/PKG-INFO
+src/project_1_4.egg-info/SOURCES.txt
+src/project_1_4.egg-info/dependency_links.txt
+src/project_1_4.egg-info/requires.txt
+src/project_1_4.egg-info/top_level.txt
+tests/test_build_db.py

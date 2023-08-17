@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: project-1-3
+Version: 1.0.0
+Summary: Real-World Python Projects -- Project 1.3.
+Author-email: Author <author@email.com>
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test

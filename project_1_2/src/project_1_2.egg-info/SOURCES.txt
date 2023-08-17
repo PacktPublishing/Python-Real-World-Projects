@@ -1,0 +1,11 @@
+pyproject.toml
+src/acquire.py
+src/kaggle_client.py
+src/model.py
+src/webpage_client.py
+src/project_1_2.egg-info/PKG-INFO
+src/project_1_2.egg-info/SOURCES.txt
+src/project_1_2.egg-info/dependency_links.txt
+src/project_1_2.egg-info/requires.txt
+src/project_1_2.egg-info/top_level.txt
+tests/test_kaggle_client.py

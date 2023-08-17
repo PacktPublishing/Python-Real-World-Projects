@@ -1,0 +1,9 @@
+pyproject.toml
+src/acquire.py
+src/html_extract.py
+src/project_1_3.egg-info/PKG-INFO
+src/project_1_3.egg-info/SOURCES.txt
+src/project_1_3.egg-info/dependency_links.txt
+src/project_1_3.egg-info/requires.txt
+src/project_1_3.egg-info/top_level.txt
+tests/test_html_extract.py

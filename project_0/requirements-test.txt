@@ -4,19 +4,17 @@
 #
 #    pip-compile --extra=test --output-file=requirements-test.txt
 #
-attrs==23.1.0
-    # via pytest
 behave==1.2.6
     # via project-0 (pyproject.toml)
 cachetools==5.3.1
     # via tox
-chardet==5.1.0
+chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-distlib==0.3.6
+distlib==0.3.7
     # via virtualenv
-filelock==3.12.1
+filelock==3.12.2
     # via
     #   tox
     #   virtualenv
@@ -33,23 +31,23 @@ parse==1.19.0
     #   parse-type
 parse-type==0.6.0
     # via behave
-platformdirs==3.5.3
+platformdirs==3.10.0
     # via
     #   tox
     #   virtualenv
-pluggy==1.0.0
+pluggy==1.2.0
     # via
     #   pytest
     #   tox
-pyproject-api==1.5.1
+pyproject-api==1.5.4
     # via tox
-pytest==7.2.0
+pytest==7.4.0
     # via project-0 (pyproject.toml)
 six==1.16.0
     # via
     #   behave
     #   parse-type
-tox==4.0.8
+tox==4.9.0
     # via project-0 (pyproject.toml)
-virtualenv==20.23.0
+virtualenv==20.24.3
     # via tox
