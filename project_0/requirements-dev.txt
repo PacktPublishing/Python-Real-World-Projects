@@ -101,7 +101,7 @@ sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
 tox==4.9.0
     # via project-0 (pyproject.toml)
-urllib3==2.0.3
+urllib3==2.0.6
     # via requests
 virtualenv==20.24.3
     # via tox
