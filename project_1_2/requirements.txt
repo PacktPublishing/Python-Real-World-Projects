@@ -12,7 +12,7 @@ bottle==0.12.23
     # via project-1-2 (pyproject.toml)
 cachetools==5.3.1
     # via tox
-certifi==2023.5.7
+certifi==2023.7.22
     # via requests
 chardet==5.2.0
     # via tox
